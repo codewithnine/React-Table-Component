@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Navbar from './Components/Navbar/Navbar'
 import Pagination from './Components/Pagination/Pagination'
 import Table from './Components/Table/Table'
@@ -16,9 +15,8 @@ function App() {
           <Row>
             <Col sm="12" md={{ size: 6, offset: 3 }}><Pagination /></Col>
           </Row>
-            
         </Container>
-      </Container>
+      </Container>      
     </div>
   );
 }
